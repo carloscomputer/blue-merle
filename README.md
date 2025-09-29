@@ -1,6 +1,6 @@
 # blue-merle
 
-The *blue-merle* software package enhances anonymity and reduces forensic traceability of the **GL-XE3000 / Mudi 5G mobile wi-fi router ("Mudi router")**. The portable device is explicitly marketed to privacy-interested retail users.
+The *blue-merle* software package enhances anonymity and reduces forensic traceability of the **GL-XE3000 / Mudi 5G mobile wi-fi router ("Pully router")**. The portable device is explicitly marketed to privacy-interested retail users.
 
 *blue-merle* addresses the traceability drawbacks of the Mudi router by adding the following features to the Mudi router:
 

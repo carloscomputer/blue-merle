@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Finde den richtigen AT-Port automatisch
+
 FIND_AT_PORT() {
     for dev in /dev/ttyUSB*; do
         echo -e "AT+GSN\r" > "$dev" &
@@ -14,7 +14,7 @@ FIND_AT_PORT() {
     return 1
 }
 
-# Wrapper für AT-Befehle
+
 GL_MODEM_AT() {
     port=$(FIND_AT_PORT)
     if [ -z "$port" ]; then
